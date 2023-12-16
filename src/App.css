@@ -1,0 +1,40 @@
+*{
+  background-color: rgb(39, 36, 36);
+  color: white;
+
+}
+.main{
+  display: flex;
+  justify-content:center ;
+align-items: center;
+}
+.mainDiv{
+display: flex;
+justify-content:center ;
+align-items: center;
+flex-direction: column;
+/* background-color: brown; */
+}
+.password{
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+  color: black;
+  margin: 5px;
+}
+.copy{
+  padding: 10px;
+  margin-left: 3px ;
+  border-radius: 5px;
+
+}
+.copy:hover{
+  padding: 10px;
+  margin-left: 3px ;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+}
